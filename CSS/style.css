@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root{
+    
+    --slide-transform: 0;
+    --transicion: transform 1s;
+
+}
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 35px;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Island Moments', cursive;
+    text-align: center;
+    color: rgba(255, 255, 255);
+    font-size: 850%;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.titulo {
+    margin: 10% auto;
+    
+}
+
+header {
+    background: #000 fixed;
+    color: rgb(248, 176, 200);;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 10px;
+}
+
+.fa-brands {
+    color: rgb(248, 176, 200);;
+}
+
+.comercio {
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+body {
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+    
+    background-image: url(https://www.maxpixel.net/static/photo/1x/Background-Flowers-Pattern-Design-Texture-7037161.png);
+    background-repeat: repeat;
+    background-color: rgb(248, 176, 200);
+}
+
+i {
+    font-size: 50px;
+    margin-right: 15px;
+}
+
+.footer {
+    margin: 0;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: azure;
+    font-size: 7px;
+    text-align: center;
+    position: absolute;
+}
+
+h5 {
+    font-size:small;
+}
+
+.div-body h5{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 70%;
+    margin-top: -25px;
+    padding-bottom: 15px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+.container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 7px 5px rgb(0, 0, 0);
+}
+
+.slider {
+    display: flex;
+    transform: translateX(var(--slide-transform));
+    transition: var(--transicion);
+}
+
+.elemento {
+    min-width: 100%;
+    height: 500px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boton {
+    border: none;
+    background: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.boton:active {
+    transform: scale(0.9);
+}
+
+.final-text {
+    margin-top: 30%;
+    color: #e6efe9;
+    text-align: center;
+}
+
+.textoFinal {
+    font-weight: bold;
+    padding: 20% auto;
+    text-shadow: 1px 1px 8px #000;
+    margin-bottom: 20%;
+}
+
+.final-text i {
+    margin: 17%;
+    font-size: 250px;
+}
